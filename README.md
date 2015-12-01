@@ -22,19 +22,13 @@
 
 ```
 #import "NSString+BHRDateFormatter.h"
-
 ---------
-
 NSString *nowDate = @"2015/01/01 10:10";
 NSString *inputDate = @"2015/01/02 09:10";
 
 NSSting *outputDateStr = [inputDate transformWithFormate:@"YYYY/MM/dd HH:mm"];
 NSLog(@"%@",outputDateStr)
-
 ---------
-
 输出结果：明天 09:10
-
-
 ```
 
