@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FC29B441C0D50C6005FE44C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC29B431C0D50C6005FE44C /* main.m */; };
+		4FC29B471C0D50C6005FE44C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC29B461C0D50C6005FE44C /* AppDelegate.m */; };
+		4FC29B4A1C0D50C6005FE44C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC29B491C0D50C6005FE44C /* ViewController.m */; };
+		4FC29B4D1C0D50C6005FE44C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC29B4B1C0D50C6005FE44C /* Main.storyboard */; };
+		4FC29B4F1C0D50C6005FE44C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC29B4E1C0D50C6005FE44C /* Assets.xcassets */; };
+		4FC29B521C0D50C6005FE44C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC29B501C0D50C6005FE44C /* LaunchScreen.storyboard */; };
+		4FC29B621C0DA7A5005FE44C /* NSString+BHRDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC29B611C0DA7A5005FE44C /* NSString+BHRDateFormatter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4FC29B3F1C0D50C6005FE44C /* BHRDateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BHRDateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC29B431C0D50C6005FE44C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4FC29B451C0D50C6005FE44C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4FC29B461C0D50C6005FE44C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4FC29B481C0D50C6005FE44C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4FC29B491C0D50C6005FE44C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4FC29B4C1C0D50C6005FE44C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FC29B4E1C0D50C6005FE44C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FC29B511C0D50C6005FE44C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FC29B531C0D50C6005FE44C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FC29B601C0DA7A5005FE44C /* NSString+BHRDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BHRDateFormatter.h"; sourceTree = "<group>"; };
+		4FC29B611C0DA7A5005FE44C /* NSString+BHRDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BHRDateFormatter.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FC29B3C1C0D50C6005FE44C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FC29B361C0D50C6005FE44C = {
+			isa = PBXGroup;
+			children = (
+				4FC29B411C0D50C6005FE44C /* BHRDateDemo */,
+				4FC29B401C0D50C6005FE44C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FC29B401C0D50C6005FE44C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FC29B3F1C0D50C6005FE44C /* BHRDateDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FC29B411C0D50C6005FE44C /* BHRDateDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4FC29B5C1C0DA703005FE44C /* BHRWeeKData */,
+				4FC29B451C0D50C6005FE44C /* AppDelegate.h */,
+				4FC29B461C0D50C6005FE44C /* AppDelegate.m */,
+				4FC29B481C0D50C6005FE44C /* ViewController.h */,
+				4FC29B491C0D50C6005FE44C /* ViewController.m */,
+				4FC29B4B1C0D50C6005FE44C /* Main.storyboard */,
+				4FC29B4E1C0D50C6005FE44C /* Assets.xcassets */,
+				4FC29B501C0D50C6005FE44C /* LaunchScreen.storyboard */,
+				4FC29B531C0D50C6005FE44C /* Info.plist */,
+				4FC29B421C0D50C6005FE44C /* Supporting Files */,
+			);
+			path = BHRDateDemo;
+			sourceTree = "<group>";
+		};
+		4FC29B421C0D50C6005FE44C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FC29B431C0D50C6005FE44C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FC29B5C1C0DA703005FE44C /* BHRWeeKData */ = {
+			isa = PBXGroup;
+			children = (
+				4FC29B601C0DA7A5005FE44C /* NSString+BHRDateFormatter.h */,
+				4FC29B611C0DA7A5005FE44C /* NSString+BHRDateFormatter.m */,
+			);
+			path = BHRWeeKData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FC29B3E1C0D50C6005FE44C /* BHRDateDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FC29B561C0D50C6005FE44C /* Build configuration list for PBXNativeTarget "BHRDateDemo" */;
+			buildPhases = (
+				4FC29B3B1C0D50C6005FE44C /* Sources */,
+				4FC29B3C1C0D50C6005FE44C /* Frameworks */,
+				4FC29B3D1C0D50C6005FE44C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BHRDateDemo;
+			productName = BHRDateDemo;
+			productReference = 4FC29B3F1C0D50C6005FE44C /* BHRDateDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FC29B371C0D50C6005FE44C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Daocaoren;
+				TargetAttributes = {
+					4FC29B3E1C0D50C6005FE44C = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 4FC29B3A1C0D50C6005FE44C /* Build configuration list for PBXProject "BHRDateDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FC29B361C0D50C6005FE44C;
+			productRefGroup = 4FC29B401C0D50C6005FE44C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FC29B3E1C0D50C6005FE44C /* BHRDateDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FC29B3D1C0D50C6005FE44C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC29B521C0D50C6005FE44C /* LaunchScreen.storyboard in Resources */,
+				4FC29B4F1C0D50C6005FE44C /* Assets.xcassets in Resources */,
+				4FC29B4D1C0D50C6005FE44C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FC29B3B1C0D50C6005FE44C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC29B4A1C0D50C6005FE44C /* ViewController.m in Sources */,
+				4FC29B621C0DA7A5005FE44C /* NSString+BHRDateFormatter.m in Sources */,
+				4FC29B471C0D50C6005FE44C /* AppDelegate.m in Sources */,
+				4FC29B441C0D50C6005FE44C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4FC29B4B1C0D50C6005FE44C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FC29B4C1C0D50C6005FE44C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FC29B501C0D50C6005FE44C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FC29B511C0D50C6005FE44C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FC29B541C0D50C6005FE44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FC29B551C0D50C6005FE44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FC29B571C0D50C6005FE44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BHRDateDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daocaoren.BHRDateDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4FC29B581C0D50C6005FE44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BHRDateDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daocaoren.BHRDateDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FC29B3A1C0D50C6005FE44C /* Build configuration list for PBXProject "BHRDateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FC29B541C0D50C6005FE44C /* Debug */,
+				4FC29B551C0D50C6005FE44C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FC29B561C0D50C6005FE44C /* Build configuration list for PBXNativeTarget "BHRDateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FC29B571C0D50C6005FE44C /* Debug */,
+				4FC29B581C0D50C6005FE44C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FC29B371C0D50C6005FE44C /* Project object */;
+}
