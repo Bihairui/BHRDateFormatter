@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface NSString (BHRDateFormatter)
+/// 获取当前星期
 - (NSString *)weekWithFormate:(NSString *) formate;
+/// 根据距离时间长短判断显示内容
 - (NSString *)transformWithFormate:(NSString *) formate;
 @end
